@@ -1,188 +1,118 @@
 # SCOPE.md — Fellowship Coffee Co. website
 
-Status: DRAFT v0.3 — 2026-09-22 — design and build only
+Status: v0.4 — 2026-09-22 — FAST TRACK · design and build only
 Client: Fellowship Coffee Co. (Missouri City / Houston, TX)
 Platform: Framer · Source of truth: github.com/ianhutto/Fellowship-Co
-Standard: production-grade, high-taste build. Every value is decided and documented in DESIGN.md; nothing is improvised on the canvas.
+
+## Objective
+A premium, high-taste Framer site for Fellowship that mirrors Night Owl's site architecture and vertical rhythm, with Fellowship's own content, type and component design, and converts visitors into event-catering quote requests.
+
+## The build rules (settled — see DECISIONS.md)
+| Layer | Rule |
+|---|---|
+| Architecture: sitemap, nav + dropdowns, page templates, section order and makeup, CTA routing | Mirrors nightowlcoffeecart.com (§A) |
+| Vertical spacing rhythm | Matches Night Owl, measured per breakpoint (not guessed) |
+| Content: words, facts, photos, reviews, numbers | Fellowship only |
+| Type, component styling, color, motion | Fellowship's own (DESIGN.md) |
+| Quality bar | Scores ≥4/5 on rubric items 1–6 (§D) side by side with Night Owl |
 
 ---
 
-## 1. What this build is
+## Delivery plan — three tracks in parallel
 
-| Layer | Rule |
-|---|---|
-| **Architecture**: sitemap, nav + dropdown groupings, page templates, section order, section makeup (item counts, cards, accordions, galleries), CTA routing | **Mirrors nightowlcoffeecart.com**, mapped from their live pages (§3). Deviations only where Fellowship lacks the content; each is listed. |
-| **Content**: every word, fact, photo, review, number | **Fellowship only**, from CONTEXT.md and COPY.md. Nothing from Night Owl. |
-| **Visual design**: palette, type, spacing system, components, motion | **Fellowship's own**, built from Fellowship's brand assets to a production standard. Not measured or copied from Night Owl. Spacing is a deliberate, documented system in DESIGN.md. |
-
-Why the split: page architecture is a common pattern. Night Owl's visual design and content are their (and their design studio's) work; copying them would produce their site with Fellowship's colors on it.
-
-## 2. Status — done
-| Item | Status |
-|---|---|
-| Build process (9 steps, Framer edition) | ✅ |
-| Repo as source of truth | ✅ local — GitHub push pending access |
-| CONTEXT.md — sourced, fact-checked | ✅ v0.4 — owner answers pending |
-| COPY.md — all pages drafted | ✅ v0.2 — needs restructure to the templates below (A3) |
-| Night Owl architecture mapped: Home, Service page, Book page | ✅ 2026-09-22 |
-
-## 3. Architecture spec (mirrors Night Owl)
-
-### 3.1 Global
-- **Utility bar:** contact line + phone
-- **Header:** logo · About · Services ▾ · Resources ▾ · primary CTA button, always visible
-- **Footer:** logo + tagline + CTA · 4 columns (Company · Services · Resources · Newsletter signup) · social links · legal links
-
-Dropdown mapping:
-| Night Owl | Fellowship | Note |
+### Track 1 — Claude (starts now, needs no one)
+| # | Deliverable | Output |
 |---|---|---|
-| Services ▾ — 6 service pages | Services ▾ — Weddings · Corporate · Celebrations | 3, not 6: only services Fellowship offers. A 4th (Events at the Shop) if the owner confirms. |
-| Resources ▾ — 5 links (blog, case studies, FAQs, brand guidelines, careers) | Resources ▾ — FAQs · Menu · The Coffee Shop | No Fellowship content exists for a blog, case studies, careers or brand guidelines. Not built unless the owner supplies content. |
-| "Latest blog" promo in the nav | Omitted | No blog |
+| 1.1 | COPY.md v1.0 restructured to §A templates: Home (9), Weddings / Corporate / Celebrations (12 each), Quote, Menu, Coffee Shop, About, FAQ, 404. Gaps marked, never invented | COPY.md |
+| 1.2 | Style sample v0.2: restraint pass — keep serif type, stamp, order-ticket cards; cut handwritten-note reviews; menu-board styling only on the menu; simplify stats | Design canvas |
+| 1.3 | Quality rubric added to the process (§D) | process file |
+| 1.4 | Framer build spec: tokens list, every component + variants, CMS schemas, page-by-page build order and Claude Code prompts, ready to run the moment Framer is connected | BUILD.md |
+| 1.5 | Measure Night Owl's vertical spacing at Desktop / Tablet / Phone (in your Chrome, with your approval) → DESIGN.md spacing tokens | DESIGN.md |
 
-CTA routing: every CTA → /quote (the café page's CTA → directions).
-
-### 3.2 Home template — 9 sections
-| # | Section | Makeup | Fellowship content |
-|---|---|---|---|
-| 1 | Utility bar | contact line + phone | COPY.md |
-| 2 | Hero | background video · eyebrow (service + area) · H1 · one sentence · 1 CTA | Fellowship video or still |
-| 3 | Trust strip | scrolling logo marquee | Real, permissioned client logos only. Until then, one proof line in the same slot ("Serving Houston since 2021") |
-| 4 | What we do | eyebrow · H2 · paragraph · text link to services | COPY.md |
-| 5 | Feature blocks | 3 blocks, alternating image / text; each: icon · H3 · paragraph · CTA | Weddings · Corporate · Celebrations |
-| 6 | Difference | eyebrow · H2 · paragraph · CTA · 3 stat tiles with icons | Real numbers only |
-| 7 | Reviews | review carousel; each card: stars · quote · name | Owner-supplied, permissioned |
-| 8 | Closing CTA | eyebrow · H2 · supporting line · CTA · 3 short benefit lines · background image | COPY.md; no urgency statistic unless real |
-| 9 | Footer | global | — |
-
-### 3.3 Service page template — 12 sections (Weddings, Corporate, Celebrations)
-Mapped from nightowlcoffeecart.com/services/mobile-activations-national-tours.
-| # | Section | Makeup |
-|---|---|---|
-| 1 | Header | global |
-| 2 | Hero | H1 · sub · CTA · image |
-| 3 | Trust strip | 6 logo tiles; same fallback rule as Home §3 |
-| 4 | Service overview | 3-column cards: headline · description · CTA link |
-| 5 | Feature image | single full-width image |
-| 6 | Testimonials | 5 cards: stars · quote · attribution |
-| 7 | Stats | 3 metric tiles |
-| 8 | Built-for | 4 numbered cards: headline · description · CTA |
-| 9 | Gallery | 4 images |
-| 10 | FAQ | accordion, 5 Q&A |
-| 11 | CTA | H2 · sub · 3 benefit bullets · CTA |
-| 12 | Footer | global |
-
-Content rule: sections 3, 6 and 7 render only with real Fellowship proof. With fewer than 5 permissioned reviews, the section shows what exists (minimum 3) or is hidden. It is never filled with invented quotes.
-
-### 3.4 Quote page template (mirrors /book)
-| # | Section | Makeup |
-|---|---|---|
-| 1 | Hero | H1 · sub |
-| 2 | Form | single step. Fields: name · email · phone · event date · event type (Wedding / Corporate / Celebration / Other) · venue or city · guest count · service start time · service end time (30-minute dropdowns) · how you heard about us · notes. Success + error states. |
-| 3 | Stats | real numbers only |
-| 4 | Reviews | permissioned reviews |
-| 5 | Footer | global |
-
-### 3.5 Other pages
-Night Owl has no direct equivalent mapped yet. Built from the Service template's components:
-- /menu: hero · menu categories (CMS) · signature drinks · CTA
-- /the-coffee-shop: hero · hours + address + directions · gallery · CTA
-- /about: hero · story · founders · gallery · CTA
-- /faq: hero · accordion by category (CMS) · CTA
-- 404
-
-To mirror these too, name the Night Owl page for each (e.g. their About or FAQs page) and it gets mapped the same way.
-
-## 4. Design standard (Fellowship's own, production grade)
-DESIGN.md defines these tokens, and Framer uses only them:
-- **Color styles** from Fellowship's brand
-- **Type scale:** display, H1–H3, body, small, eyebrow, button; sizes per breakpoint
-- **Spacing system:** one base unit and scale; fixed section padding per breakpoint (Desktop / Tablet / Phone); max content width; card and grid gaps. Every section uses these values; no one-off spacing.
-- **Grid:** columns and gutters per breakpoint
-- **Components with variants:** nav (open/closed) · dropdown · buttons (primary/secondary × default/hover/pressed) · eyebrow · section header · feature block (image-left / image-right) · card · numbered card · stat tile · review card · logo strip · gallery · accordion item · form fields (default/focus/error) · CTA band · footer
-- **Motion:** one easing, 2–3 durations, appear-on-scroll, marquee speed, carousel behavior, reduced-motion fallback
-- **Imagery:** crops, aspect ratios, treatment, alt-text rule
-- Style sample reviewed and locked before any page is built
-
-## 5. In scope — remaining
-
-### Phase A — Lock the content
-| # | Deliverable | Owner |
-|---|---|---|
-| A1 | Owner answers open questions (§7) | Client |
-| A2 | CONTEXT.md v1.0: every fact confirmed | Provider |
-| A3 | COPY.md v1.0 restructured to §3: Home (9 sections), 3 service pages × 12 sections, Quote, Menu, Coffee Shop, About, FAQ, 404 | Provider |
-| A4 | Headline table approved → "COPY locked" | Ian (+ owner) |
-
-### Phase B — Design system
-| # | Deliverable | Owner |
-|---|---|---|
-| B1 | Brand assets: logo, colors, fonts, photos, video (or current-site screenshots) | Client |
-| B2 | DESIGN.md per §4 | Provider |
-| B3 | Style sample (tokens + key components); up to 2 rounds → "DESIGN locked" | Provider |
-
-### Phase C — Build in Framer
-| # | Deliverable |
+### Track 2 — Ian (today)
+| # | Action |
 |---|---|
-| C1 | Framer project + Claude Code connection; all work on a branch |
-| C2 | Color and text styles, spacing, breakpoints, grid from DESIGN.md |
-| C3 | All §4 components with variants |
-| C4 | CMS: Reviews · Services · FAQs · Menu items · Client logos |
-| C5 | Templates: Home, Service, Quote; then Menu, Coffee Shop, About, FAQ, 404 |
-| C6 | Pages: Home · Weddings · Corporate · Celebrations · Quote · Menu · The Coffee Shop · About · FAQ · 404. Copy verbatim; SEO title + description on each |
-| C7 | Nav with Services ▾ and Resources ▾ dropdowns; desktop and mobile menu |
-| C8 | Quote form wired to the owner's chosen destination; success + error states |
+| 2.1 | Push the repo to GitHub (or add it to this session so Claude can) |
+| 2.2 | Create the Framer project on a plan that supports the Claude Code connection; run Framer's setup; send the project URL |
+| 2.3 | Send the owner the request list (Track 3) |
+| 2.4 | Approve Chrome access for 1.5, or send measured values |
+| 2.5 | React to style sample v0.2 → lock design |
 
-### Phase D — Media
-| # | Deliverable |
+### Track 3 — Owner (the critical path)
+Priority order; the first two gate "premium".
+1. **Photography + video:** cart at events, drinks, baristas, café. Enough for 4 heroes and a 4-image gallery per service page. This is the single biggest factor in looking premium.
+2. **Brand assets:** logo (SVG), existing colors and fonts if any
+3. Reviews: up to 5 per service, with permission; one rating source
+4. Pricing: "from $550" current and publishable?
+5. Current menu + signature drinks
+6. FAQ answers: space, power, travel area/fees, guest counts, service length, lead time
+7. Public name; credit for Ryan and Janice; mention faith or not
+8. Full café hours; does the phone take texts?
+9. Real numbers for stat tiles, or approval for "since 2021"
+10. Client logos with permission, or confirmation there are none
+11. Suite 325 — events at the shop?
+12. Quote form destination; domain/DNS access
+
+**Fallback so nothing stalls:** the build proceeds with labelled placeholders held in Framer CMS. Owner content drops in without rebuilding.
+
+---
+
+## Gates
+| Gate | Done when |
 |---|---|
-| D1 | Hero video: Fellowship footage preferred; otherwise one AI-generated loop (commercial terms checked) or a still |
-| D2 | Photo set: crops per DESIGN.md ratios, compressed, alt text; a 4-image gallery per service page |
+| G1 · Copy locked | COPY.md v1.0 approved by Ian |
+| G2 · Design locked | Style sample approved; DESIGN.md tokens (incl. measured spacing) final |
+| G3 · Build complete | All pages built on a Framer branch from BUILD.md; placeholders only where owner content is missing |
+| G4 · Quality pass | Independent reviewer scores ≥4 on rubric 1–6, all breakpoints; fix list closed |
+| G5 · Publish | Owner content in, domain connected, redirects live, published on explicit go |
 
-### Phase E — QA
-| # | Deliverable |
-|---|---|
-| E1 | Architecture check: every page matches §3 section order and makeup; deviations only as listed |
-| E2 | Design check: only DESIGN.md tokens used; spacing consistent at every breakpoint |
-| E3 | Independent quality pass: copy, mobile, accessibility, speed, forms, links, SEO |
-| E4 | Up to 3 revision rounds on the branch |
+G3 can start as soon as G1 + G2 pass and Framer is connected. Owner content is not required to start building.
 
-### Phase F — Publish
-| # | Deliverable |
-|---|---|
-| F1 | Connect fellowshipcoffeetx.com (DNS) |
-| F2 | Redirects: /cart → / · /contact → /quote · keep /the-coffee-shop and /about |
-| F3 | Favicon, share image, analytics snippet |
-| F4 | Publish on explicit go; live check of forms, redirects and mobile |
+---
 
-## 6. Out of scope
-- Copying Night Owl's visual design, measured spacing, copy, images, logos, reviews or stats
-- Blog, Case Studies, Careers, Brand Guidelines pages (no Fellowship content)
-- Logo or brand redesign; photo or video shoot
-- Online ordering, payments, deposits (the form sends a request only)
-- Spanish or other languages
-- Ads, ongoing SEO, social, maintenance after publish
+## §A Architecture spec (mirrors Night Owl)
 
-## 7. Needed from the client
-1. Brand assets: logo, colors, fonts, photos (enough for heroes and a 4-image gallery per service page), video
-2. Reviews: up to 5 per service page, with permission; one rating source
-3. Real numbers for stat tiles (events served, years, rating), or approval to use "since 2021" / "from $550"
-4. Client logos with permission for the trust strips, or confirmation there are none
-5. Pricing: is "from $550" current and publishable?
-6. Current menu and signature drinks
-7. 5 FAQ answers per service: space, power, travel area and fees, guest counts, service length, lead time
-8. Public name; credit for Ryan and Janice; whether to mention faith
-9. Full café hours; does the phone take texts?
-10. Suite 325: events at the shop? (adds a 4th service page)
-11. Quote form destination
-12. Domain/DNS access; a Framer plan that supports the Claude Code connection
+### Global
+- Utility bar: contact line + phone
+- Header: logo · About · Services ▾ · Resources ▾ · CTA button (always visible)
+- Footer: logo + tagline + CTA · Company · Services · Resources · Newsletter · social · legal
+- Services ▾: Weddings · Corporate · Celebrations (+ Events at the Shop if confirmed)
+- Resources ▾: FAQs · Menu · The Coffee Shop
+- Every CTA → /quote (café page → directions)
 
-## 8. Acceptance criteria
-- Every page matches its §3 template in section order and makeup, with only the listed deviations
-- Every visual value comes from DESIGN.md; spacing consistent on Desktop, Tablet and Phone
-- Nav dropdowns, accordions, carousels and marquee work on desktop and mobile
-- Quote form delivers end to end
-- Old URLs redirect
-- SEO title, description and share image on every page
-- No invented or unconfirmed facts, reviews, numbers or logos
-- Owner can edit text, images, menu, reviews, FAQs and logos in Framer
+### Home — 9 sections
+1 Utility bar · 2 Hero (video, eyebrow, H1, sentence, CTA) · 3 Trust strip (marquee; real logos only, else one proof line) · 4 What we do · 5 Three alternating feature blocks · 6 Difference + 3 stat tiles · 7 Review carousel · 8 Closing CTA (3 benefit lines, background image) · 9 Footer
+
+### Service page — 12 sections (Weddings, Corporate, Celebrations)
+1 Header · 2 Hero (H1, sub, CTA, image) · 3 Trust strip (6 tiles, same fallback) · 4 Three overview cards · 5 Full-width image · 6 Testimonials (5; min 3 real, else hidden) · 7 Three stat tiles · 8 Four numbered cards · 9 Gallery (4) · 10 FAQ accordion (5) · 11 CTA (3 bullets) · 12 Footer
+
+### Quote page (mirrors /book)
+1 Hero · 2 Single-step form: name, email, phone, date, event type, venue/city, guest count, start + end time (30-min), how you heard, notes; success + error states · 3 Stats · 4 Reviews · 5 Footer
+
+### Other pages (built from the same components)
+Menu · The Coffee Shop · About · FAQ · 404
+
+### Redirects
+/cart → / · /contact → /quote · keep /the-coffee-shop, /about
+
+## §B Design system (Fellowship's own)
+Color styles · type scale per breakpoint · spacing scale (measured Night Owl rhythm) · grid · components with variants (nav, dropdown, buttons, eyebrow, section header, feature block L/R, overview card, numbered card, stat tile, review card, trust strip, gallery, accordion, form fields, CTA band, footer) · motion (one easing, fade-up, reduced-motion) · imagery rules.
+
+## §C Out of scope
+Night Owl's copy, images, logos, reviews, stats, type or component styling · blog / case studies / careers / brand guidelines pages · brand redesign · photo shoot · online ordering or payments · other languages · ads, ongoing SEO, maintenance after publish.
+
+## §D Quality rubric (G4) — score 1–5, side by side with Night Owl at the same viewport
+1. First 5 seconds: what, where, next step, feels premium
+2. Photography: real, consistent, sells with text covered
+3. Type hierarchy: one focal point per section; squint test
+4. Spacing rhythm: consistent, generous, matches measured tokens
+5. Restraint: one accent; brand codes used sparingly
+6. Distinctiveness: recognisably Fellowship with the logo covered
+7. Copy: short, specific, true; headlines tell the story
+8. Craft: hover states, motion, alignment, no default styling
+9. Mobile: designed for phone; one-handed use
+10. Conversion: quote always one tap away; short form
+Pass = ≥4 on 1–6, no item below 3.
+
+## Acceptance
+All pages match §A; every visual value from DESIGN.md; nav, accordions, carousels, marquee work on desktop and mobile; quote form delivers end to end; redirects work; SEO title, description and share image on every page; no invented facts, reviews, numbers or logos; owner can edit text, images, menu, reviews, FAQs and logos in Framer; G4 passed.
