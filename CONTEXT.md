@@ -1,6 +1,6 @@
 # CONTEXT.md — Fellowship Coffee Co.
 
-Status: DRAFT v0.3 — 2026-09-22 (red-teamed; site-snippet answers added, owner still to confirm)
+Status: DRAFT v0.4 — 2026-09-22 (red-teamed; site-snippet + Google Maps listing added, owner still to confirm)
 Source rule: every line is owner-confirmed or tagged with its source. Nothing here goes on the site until the owner confirms it.
 fellowshipcoffeetx.com blocks automated reading. Its page TITLES are known; its page TEXT has not been verified.
 
@@ -10,6 +10,7 @@ Tags:
 [press] = Community Impact (CI) 2023-03-02 / 2024-06-04 / 2025-11-24; WhatNow Houston 2022-09
 [dir] = business directories (Karmalize, Katy News) — lower confidence
 [listing] = Yelp / Yahoo Local / Wheree / Apple Maps
+[gmaps] = Google Maps business listing, supplied by Ian 2026-09-22
 [social] = Facebook / Instagram / Threads
 [UNVERIFIED] = seen only in a search snippet or not found at all
 [TBD — ask] = unknown, owner must answer
@@ -21,7 +22,7 @@ Tags:
 - Name: "Fellowship Coffee Co." [site] — also "Fellowship Coffee Company" (Facebook) and "Fellowship Coffee Cafe & Catering" / "Fellowship Coffee Co. & Catering" (Instagram, directories) [social][dir] — public name to use [TBD — ask]
 - What: mobile espresso cart for events + brick-and-mortar café [press: CI 2024]
 - Founded: October 2021 as a traveling coffee cart [press: CI 2023, CI 2024]
-- Café opened: May 1, 2024, Township Square Shopping Plaza, Missouri City [press: CI 2024; plaza name from CI 2023]
+- Café opened: May 1, 2024, Township Square Shopping Plaza, Missouri City [press: CI 2024][gmaps]
 - Owners: Ryan Borinaga (founder/owner, lead barista) and his wife Janice — named "Janice Chiu" (CI 2023/2024) and "Janice Borinaga" (CI 2025) [press] — names and titles to use [TBD — ask]
 - Origin: Ryan began home-roasting in 2021; specialty-coffee interest led to the cart [press: CI 2023]
 - Owner's stated motivation (paraphrase, not a quote): people coming together over coffee; faith-based [press: CI 2025] — confirm wording before any use on site
@@ -30,9 +31,9 @@ Tags:
 ## Contact
 - Phone: (832) 427-7363 [listing: Yahoo, Wheree, SageMenu]
 - Email: Fellowshipcoffeeco@gmail.com [UNVERIFIED — search match to /contact only] — publish this or a branded address? [TBD — ask]
-- Café address: 3434 FM 1092 Rd, Ste 350, Missouri City, TX 77459 [press: CI 2024, CI 2025][listing]
+- Café address: 3434 FM 1092 Rd #350, Missouri City, TX 77459 — in Township Square Shopping Plaza [gmaps][press: CI 2024, CI 2025][listing] ✅ confirmed by Google listing
   - Note: pre-opening articles (WhatNow 2022, CI 2023) said "3340 FM 1092" — superseded.
-- Café hours: Mon–Fri 7a–6p · Sat 8a–6p · Sun 8a–2:30p [listing: Yahoo; Wheree Jul 2026]
+- Café hours: Mon–Fri 7a–6p · Sat 8a–6p · Sun 8a–2:30p [listing: Yahoo; Wheree Jul 2026] — Google shows closing 6 PM on Tue 2026-09-22, consistent with weekday hours [gmaps]; full week still to confirm
   - An older listing (~May 2024) shows Mon–Sat 8–6, Sun closed. Current hours [TBD — ask]
 - Service area (cart): Houston-area events [press: CI 2024] — radius, travel fees [TBD — ask]
 - Social: Facebook /fellowshipcoffeetx · Instagram + Threads @fellowshipcoffee.co [social]
@@ -65,6 +66,7 @@ Signature drinks (seen in press — confirm which are still on the menu)
 
 Café
 - Specialty coffee drinks; pastries, scones, empanadas; family-friendly [press: CI 2025]
+- Google's summary of the café: a hip coffeehouse with espresso drinks, teas, fresh pastries and milk alternatives [gmaps] (Google-written, use as description reference only)
 - Roasting: home-roasted since 2021; an in-house roaster was PLANNED as of Nov 2025 [press: CI 2025]. Do NOT say "roasted in-house" until the owner confirms.
 - Outdoor seating [listing: Wheree only] — confirm
 - Suppliers: Care Crafted Syrups and Cake and Bacon pastries as of Jun 2024 [press: CI 2024]. Later sources mention house-made syrups (CI 2025) and Street Treats by Lauren Kay pastries (SageMenu). Current suppliers [TBD — ask]; name none on site until confirmed.
