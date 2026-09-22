@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-22 — Architecture mirrors nightowlcoffeecart.com (sitemap, nav dropdowns, page templates, section order and makeup, CTA routing), mapped from their Home, Service and Book pages. Content and visual design (palette, type, spacing system, components, motion) are Fellowship's own, documented in DESIGN.md. Sections needing proof (logos, testimonials, stats) render only with real Fellowship content. — Match a proven funnel exactly without reproducing another business's design or claims.
+
 - 2026-09-22 — Step 3 key picks (recommended, pending Ian's OK): hero "Your event, with a coffee shop in the room."; utility bar "Questions? Text or call us"; proof strip "Serving Houston since 2021"; closing CTA "Let's put coffee on the guest list." — Concrete, verified, in Fellowship's voice; avoids echoing Night Owl's "real people" top-bar angle.
 
 - 2026-09-22 — This repo (github.com/ianhutto/Fellowship-Co) is the single source of truth for the site. — Keep facts, words, design and process in one versioned place.
