@@ -11,7 +11,7 @@ Needed before drafting:
 ## Design method (agreed 2026-09-22)
 Goal: Night Owl's architecture at Night Owl's level of polish, unmistakably Fellowship.
 1. Architecture mirrored per SCOPE.md §3.
-2. Vertical rhythm MATCHES Night Owl (revised 2026-09-22 at Ian's call): section padding, heading → body → CTA gaps, card/grid gaps, and their scaling per breakpoint — measured from their live pages, not guessed. Everything else is principles only: big editorial headlines against small caps eyebrows; full-bleed photo/video; restrained palette with one accent; subtle, smooth motion. Type, fonts, component styling, colors and motion values are Fellowship's own.
+2. Vertical rhythm MATCHES Night Owl (revised 2026-09-22 at Ian's call): measured — see Spacing below. Everything else is principles only: big editorial headlines against small caps eyebrows; full-bleed photo/video; restrained palette with one accent; subtle, smooth motion. Type, fonts, component styling, colors and motion values are Fellowship's own.
 3. Four more references chosen for Fellowship's character (warm, community, faith-rooted, Filipino-inspired drinks). Each: the one principle borrowed. [owner/Ian to pick, or Provider proposes]
 4. Fellowship tokens (below) each chosen to deliver a principle from step 2.
 5. Parity review: side by side with Night Owl on polish, breathing room, type contrast and motion quality. Gaps fixed with Fellowship tokens only.
@@ -70,8 +70,26 @@ Template (to be filled in Step 4 — maps 1:1 onto Framer):
 ## Color styles (light + dark)
 ## Text styles (per breakpoint)
 ## Breakpoints
-## Spacing
-(Measured from nightowlcoffeecart.com at Desktop / Tablet / Phone — values pending measurement)
+## Spacing — vertical rhythm (measured 2026-09-22)
+Source: nightowlcoffeecart.com/services/mobile-activations-national-tours, computed styles, vertical spacing only.
+Measured at 2559px and 991px (identical, so Desktop 1440 uses the same), 767px and 390px.
+
+Scale: 16 · 24 · 32 · 40 · 48 · 80 · 96 · 160
+
+| Token | Desktop (≥992) | Tablet (768–991) | Phone (≤767) | Used for |
+|---|---|---|---|---|
+| section-y | 80 | 80 | 40 | Standard section padding, top and bottom |
+| section-y-lg | 96 | 96 | 40 | Closing CTA band |
+| strip-y | 48 | 48 | 48 | Trust strip padding |
+| hero-top | 80 | 80 | 160 | Hero top padding (phone value clears the fixed nav) |
+| hero-bottom | 48 | 48 | 48 | Hero bottom padding |
+| footer-top | 48 | 48 | 48 | Footer top padding |
+| stack-gap | 16 | 16 | 16 | Eyebrow → heading → body → CTA |
+| card-gap | 24 | 24 | 24 | Gap between cards in a row or grid |
+| footer-col-gap | 96 | 96 | 32 | Gap between footer columns |
+
+Note: 767px → the page switches to phone values at 767 for most sections; the 'Full-width image' block switched to 40 already at 767. Treat 767 as the phone breakpoint.
+Horizontal spacing, type, component styling, colors and motion are Fellowship's own (not measured).
 ## Radius / shadow / effects
 ## Motion
 ## Components (with variants)
