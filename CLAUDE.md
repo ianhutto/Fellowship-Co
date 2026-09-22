@@ -18,7 +18,7 @@
 - Prefer native Framer layers, styles and components over code components.
 
 ## Reference sites
-- nightowlcoffeecart.com is a STRUCTURAL reference only (funnel order, page types). Do not copy its copy, images, logos, reviews, stats or visual design.
+- nightowlcoffeecart.com: its ARCHITECTURE is mirrored (sitemap, nav, page templates, section order and makeup, CTA routing) and its VERTICAL SPACING rhythm is matched (measured in DESIGN.md). Never copy its copy, images, logos, reviews, stats, type, component styling, colors or motion.
 - fellowshipcoffeetx.com is the client's current site. Its content belongs to Fellowship and may be carried over once the owner provides it.
 
 ## Process

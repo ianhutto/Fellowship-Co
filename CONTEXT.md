@@ -35,7 +35,7 @@ Tags:
   - Note: pre-opening articles (WhatNow 2022, CI 2023) said "3340 FM 1092" — superseded.
 - Café hours: Mon–Fri 7a–6p · Sat 8a–6p · Sun 8a–2:30p [listing: Yahoo; Wheree Jul 2026] — Google shows closing 6 PM on Tue 2026-09-22, consistent with weekday hours [gmaps]; full week still to confirm
   - An older listing (~May 2024) shows Mon–Sat 8–6, Sun closed. Current hours [TBD — ask]
-- Service area (cart): Houston-area events [press: CI 2024] — radius, travel fees [TBD — ask]
+- Service area (cart): Houston-area events [press: CI 2024]; directories also list Fresno and Katy, TX [dir] — radius, travel fees [TBD — ask]
 - Social: Facebook /fellowshipcoffeetx · Instagram + Threads @fellowshipcoffee.co [social]
   - A directory lists instagram.com/fellowshipcoffeetx — likely outdated. Confirm [TBD — ask]
 
@@ -81,7 +81,7 @@ Conversion
 - Reviews to feature, with permission: [TBD — ask]
 - Numbers: none cleared to publish. Seen 2026-09-22: Yelp 94 reviews (stars not seen); Yahoo Local 4.5★ / 95; a third-party site claims Google 4.8★ (not verified directly) [listing]. Owner to pick ONE source and we date-stamp it.
 - Publishable today (once confirmed): "since 2021", "from $550"
-- Press: CI 2022/2023/2024/2025 coverage; WhatNow Houston 2022 [press]
+- Press: Community Impact 2023, 2024, 2025; WhatNow Houston 2022 [press]
 - Rule: no logos, reviews or stats Fellowship hasn't earned and can't show.
 
 ## Voice (from current site copy) [snippet]
@@ -99,7 +99,7 @@ Conversion
 - Platform: Framer [decision]
 - Languages: English only? [TBD — ask]
 - Domain: fellowshipcoffeetx.com — current host unknown (page-title pattern suggests Squarespace, not confirmed); who controls DNS [TBD — ask]
-- Existing URLs to redirect (301): /cart, /the-coffee-shop, /about, /contact [site]
+- Existing URLs to redirect (301): /cart, /the-coffee-shop, /about, /contact, /gallery [site]
 - Brand assets needed from owner: logo files, hex palette, fonts, photo + video library, current page text
 - Deadline [TBD — ask]
 

@@ -32,7 +32,7 @@ Page by page: state the section's job; ask 1–2 questions; draft 3 options that
 One table: page | section | H1/H2 | sub | CTA. Mark ✅ / ✏️ until all ✅. Checks: headlines alone tell the story; no claim missing from CONTEXT.md; one CTA verb per page. Gate: "COPY locked — [date]" in DECISIONS.md.
 
 ## Step 4 — DESIGN.md (brand + five references)
-Brand assets win conflicts. From five reference sites, extract principles (type scale, spacing rhythm, grid, color strategy, motion), not pixels. No cloning layouts, assets or recognizable designs. Write DESIGN.md to map 1:1 onto Framer: Color Styles, Text Styles, breakpoints, spacing, motion, components with variants, imagery rules, don'ts. Gate: "DESIGN locked — [date]".
+Brand assets win conflicts. From five reference sites, extract principles (type scale, spacing rhythm, grid, color strategy, motion), not pixels. No copying another site's assets, copy, type or component styling. A reference's architecture and spacing rhythm may be mirrored when that decision is logged in DECISIONS.md. Write DESIGN.md to map 1:1 onto Framer: Color Styles, Text Styles, breakpoints, spacing, motion, components with variants, imagery rules, don'ts. Gate: "DESIGN locked — [date]".
 
 ## Step 5 — Build in Framer from all three files
 Order: Color + Text Styles → breakpoints → components with variants → CMS collections → pages from COPY.md verbatim with SEO fields → gap list (missing words/styles/assets) instead of filling gaps. Review on the branch at all breakpoints.

@@ -1,6 +1,6 @@
 # DESIGN.md — Fellowship Coffee Co.
 
-Status: NOT STARTED — blocked on brand assets from the owner.
+Status: v0.2 — proposal + measured spacing. Palette and logo pending Fellowship brand assets. Restraint pass applied 2026-09-22 (red team).
 
 Needed before drafting:
 - Logo files (SVG preferred) → assets/logo/
@@ -10,7 +10,7 @@ Needed before drafting:
 
 ## Design method (agreed 2026-09-22)
 Goal: Night Owl's architecture at Night Owl's level of polish, unmistakably Fellowship.
-1. Architecture mirrored per SCOPE.md §3.
+1. Architecture mirrored per SCOPE.md §A.
 2. Vertical rhythm MATCHES Night Owl (revised 2026-09-22 at Ian's call): measured — see Spacing below. Everything else is principles only: big editorial headlines against small caps eyebrows; full-bleed photo/video; restrained palette with one accent; subtle, smooth motion. Type, fonts, component styling, colors and motion values are Fellowship's own.
 3. Four more references chosen for Fellowship's character (warm, community, faith-rooted, Filipino-inspired drinks). Each: the one principle borrowed. [owner/Ian to pick, or Provider proposes]
 4. Fellowship tokens (below) each chosen to deliver a principle from step 2.
@@ -23,43 +23,40 @@ Status: PROPOSAL. Fellowship's existing logo, colors and fonts override anything
 ### Brand idea
 **"Pull up a chair."** Fellowship's name and story are about people gathering over coffee. Night Owl's look signals premium event production; Fellowship's signals warmth and hospitality. Every type and component choice below should feel like a well-run neighborhood café: crafted, warm, a little playful, never corporate.
 
-### Brand codes (repeat everywhere so the site is recognisably Fellowship)
-1. **The order ticket:** cards styled like café order slips: thin rule borders, a perforated or dashed edge, small monospaced labels (ORDER · FOR · QTY), a torn-edge option for accents.
-2. **The stamp:** a round badge mark (e.g. "EST. 2021 · MISSOURI CITY, TX") used as a seal on hero, footer and quote page. Rotates slowly on scroll.
-3. **The cup ring:** a faint coffee-ring mark as a background texture behind section headers. Used sparingly, never behind body text.
-4. **The chalk menu:** menu and pricing set like a café menu board, with dotted leaders between item and detail.
+### Brand codes (restraint: two only)
+1. **The stamp:** a static round seal ("EST. 2021 · MISSOURI CITY, TX"). Footer and Quote page only. No rotation.
+2. **Mono labels:** small uppercase monospace for eyebrows, card labels and stat labels. This is the main recurring code.
+Dotted leaders appear on /menu only. Everything else stays quiet so the photography carries the premium feel.
+Removed in the restraint pass: cup-ring texture, torn/perforated ticket edges, polaroid rotation, handwritten review cards, order-slip form styling, steam-rise hover, seal-style proof strip, menu-board FAQ.
 
 ### Type treatment
-| Role | Proposal | Why |
+| Role | Proposal | Notes |
 |---|---|---|
-| Display / H1–H2 | **Fraunces** (Google Fonts, variable serif), set large, soft axis up, tight leading, sentence case | Warm and crafted. Signals café and hospitality, not event agency. |
-| Body | **Instrument Sans** (Google Fonts) | Clean and legible; lets the serif carry the personality |
-| Labels / eyebrows / tickets | **a monospace** (e.g. JetBrains Mono or IBM Plex Mono, Google Fonts), small, uppercase, wide tracking | Order-ticket and receipt feel. It replaces the generic small-caps eyebrow with a Fellowship code. |
-| Accent | **Italic Fraunces** for one word per headline ("Your event, with a coffee shop *in the room*.") | A signature move people will remember |
+| Display / H1–H2 | **Fraunces** (Google Fonts), large optical size, soft axis 0, weight 400, tight leading, sentence case | Crisp editorial serif, not "cosy indie" |
+| Body | **Instrument Sans** (Google Fonts) | |
+| Labels | **JetBrains Mono** (Google Fonts), 12–13px, uppercase, tracking 0.16–0.18em | Check contrast at small size (≥4.5:1) |
+| Accent | Italic Fraunces for one phrase in H1s only | H2/H3 stay roman |
 Verify each font is available in Framer's font library before locking.
 
 ### Component styling
-| Component | Fellowship treatment |
+| Component | Treatment |
 |---|---|
-| Buttons | Pill shape; primary filled in the brand accent; hover: a small steam-rise micro-animation (arrow nudges up); secondary: text + underline that draws on hover |
-| Eyebrow | Monospace label inside a thin ticket outline, with a small dot bullet: `● WEDDINGS` |
-| Feature blocks | Photos with a slightly rounded crop and a stamped caption tag in the corner; alternating sides per the SCOPE §3 layout |
-| Service cards (3-col) | Order-ticket cards: dashed top edge, mono label, serif title, short body, arrow link |
-| Numbered cards (4) | Large serif numerals set like menu numbers ("No. 01"), not generic circles |
-| Stat tiles | Receipt style: mono label, big serif figure, dotted leader line |
-| Review cards | Handwritten-note feel: off-white card, serif italic quote, small stamp with star rating, name in mono |
-| Logo / proof strip | Stamp-row treatment: proof items in circular seals instead of a flat logo marquee |
-| FAQ accordion | Menu-board rows: question in serif, dotted leader, + turns to × |
-| Gallery (4) | Polaroid-adjacent: thin white border, slight alternating rotation on desktop (0 on mobile) |
-| CTA band | Full-bleed photo, dark overlay, large serif line, the stamp seal rotating beside the button |
-| Form | Styled as an order slip: numbered fields, mono labels, dashed dividers; submit button "Send my order" [confirm copy] |
-| Footer | Café sign-off: address and hours set like a shop window decal, stamp seal, social |
-
-### Style sample
-v0.1 published 2026-09-22 as a private Design canvas ("Fellowship Style Sample"). Accent switch: ube / pandan / cinnamon. Palette and fonts are proposals until Fellowship's brand assets arrive.
+| Buttons | Pill; primary filled accent, white text; secondary text with underline that draws on hover; visible focus ring |
+| Eyebrow | Mono label with a small accent dot |
+| Feature blocks | Large photo, gently rounded corners, alternating sides |
+| Benefit cards (3) | Clean card on paper tone, mono label, serif title, short body; no per-card CTA |
+| Numbered tabs (4) | Tab list with serif numerals "No. 01–04"; selecting a tab swaps its image and line |
+| Stat tiles | Big serif figure, mono label beneath; no receipt styling |
+| Review cards | Plain card, stars, quote in body type, name + event in mono |
+| Trust strip | Plain logo row or linked text line; no seals; marquee has a pause control |
+| FAQ accordion | Simple rows, serif question, + / × indicator |
+| Gallery (café, about) | Clean grid, no rotation |
+| CTA band | Full-bleed photo, dark overlay, large serif line, button |
+| Form | Clean fields with labels, clear focus and error states; button "SEND MY REQUEST" |
+| Footer | Café address and hours, stamp, social, newsletter |
 
 ### Motion
-Warm, not flashy: fade-up on scroll (short distance), the stamp rotating slowly, underline draws, a steam-rise on button hover. One easing curve for everything. All of it off under reduced-motion.
+Fade-up on scroll (short distance), underline draw on links, tab image crossfade, marquee and carousel with pause controls. One easing curve. All off under reduced-motion.
 
 ### Palette
 Pending Fellowship's brand colors. If none exist, the proposal is a warm neutral base (cream / espresso brown) plus one accent from their signature drinks (ube purple or pandan green), for the owner to choose. No colors are locked until reviewed.
@@ -94,4 +91,24 @@ Horizontal spacing, type, component styling, colors and motion are Fellowship's 
 ## Motion
 ## Components (with variants)
 ## Imagery + video rules
+Real Fellowship photography only. G4 cannot pass on placeholders.
+
+Specs
+- Hero video: 8–12 s seamless loop, 1080p, H.264 MP4 + WebM, ≤3 MB desktop / ≤1 MB phone version, muted, no text in frame, poster frame supplied
+- Stills: min 2400 px on the long edge; export WebP/AVIF via Framer
+- Ratios: hero 16:9 desktop / 4:5 phone · feature blocks 4:5 · full-width 21:9 · numbered-tab images 4:5 · benefit/review cards 1:1 · gallery 1:1 or 4:5
+- Alt text on every image: what's in the shot, no keyword stuffing
+
+Shot list for the owner (priority order)
+1. The cart set up at a real event, wide, with guests (hero)
+2. Barista pulling a shot / pouring latte art, close
+3. Guests holding drinks, candid, at a wedding
+4. Same at an office event
+5. Same at a shower or birthday, including the cocoa bar with kids (with parents' permission)
+6. Signature drinks styled on a plain surface (ube, biko, lavender)
+7. The café interior and counter, pastries
+8. Ryan and Janice together, natural light
+9. Detail shots: cups, menu board, cart hardware
+10. A short phone video walk-up to the cart for the hero loop
+
 ## Don'ts
