@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-22 — Ian's framing, confirmed: an INSPIRED version. Night Owl's architecture is cloned (sitemap, nav, page templates, section order, section layout patterns such as column counts and alternating blocks, CTA routing). Everything visible is Fellowship's: content from CONTEXT/COPY, and a unique visual design defined in DESIGN.md. Nothing of Night Owl's (copy, images, logos, reviews, stats, styling) appears on the site. — This is what the .md files exist for.
+
 - 2026-09-22 — Architecture mirrors nightowlcoffeecart.com (sitemap, nav dropdowns, page templates, section order and makeup, CTA routing), mapped from their Home, Service and Book pages. Content and visual design (palette, type, spacing system, components, motion) are Fellowship's own, documented in DESIGN.md. Sections needing proof (logos, testimonials, stats) render only with real Fellowship content. — Match a proven funnel exactly without reproducing another business's design or claims.
 
 - 2026-09-22 — Step 3 key picks (recommended, pending Ian's OK): hero "Your event, with a coffee shop in the room."; utility bar "Questions? Text or call us"; proof strip "Serving Houston since 2021"; closing CTA "Let's put coffee on the guest list." — Concrete, verified, in Fellowship's voice; avoids echoing Night Owl's "real people" top-bar angle.
