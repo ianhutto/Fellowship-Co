@@ -8,6 +8,7 @@ Single source of truth for the fellowshipcoffeetx.com rebuild on Framer.
 | [CONTEXT.md](CONTEXT.md) | Facts the site is built from, each tagged with its source | v0.3 draft — owner to confirm |
 | [COPY.md](COPY.md) | Every word on every page | v0.1 draft — awaiting headline approval |
 | [DESIGN.md](DESIGN.md) | Colors, type, spacing, components — mapped to Framer styles | Not started — needs brand assets |
+| [SCOPE.md](SCOPE.md) | Scope of work: what is left, who owns it, estimates | v0.1 draft |
 | [DECISIONS.md](DECISIONS.md) | What was locked, when, and why | Live |
 | [CLAUDE.md](CLAUDE.md) | Rules for AI agents working on this site | Live |
 
