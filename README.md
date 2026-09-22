@@ -11,6 +11,7 @@ Single source of truth for the fellowshipcoffeetx.com rebuild on Framer.
 | [SCOPE.md](SCOPE.md) | Scope of work: what is left, who owns it, estimates | v0.5 fast track |
 | [DECISIONS.md](DECISIONS.md) | What was locked, when, and why | Live |
 | [CLAUDE.md](CLAUDE.md) | Rules for AI agents working on this site | Live |
+| [KICKOFF.md](KICKOFF.md) | Claude Code kickoff prompt for the Framer build | Ready |
 
 ## Process
 [process/framer-three-file-website.md](process/framer-three-file-website.md) — the 9-step workflow this build follows.
