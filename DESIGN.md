@@ -76,7 +76,7 @@ Measured at 2559px and 991px (identical, so Desktop 1440 uses the same), 767px a
 
 Scale: 16 · 24 · 32 · 40 · 48 · 80 · 96 · 160
 
-| Token | Desktop (≥992) | Tablet (768–991) | Phone (≤767) | Used for |
+| Token | Desktop (≥992) | Tablet (480–991) | Phone (≤479) | Used for |
 |---|---|---|---|---|
 | section-y | 80 | 80 | 40 | Standard section padding, top and bottom |
 | section-y-lg | 96 | 96 | 40 | Closing CTA band |
@@ -88,7 +88,7 @@ Scale: 16 · 24 · 32 · 40 · 48 · 80 · 96 · 160
 | card-gap | 24 | 24 | 24 | Gap between cards in a row or grid |
 | footer-col-gap | 96 | 96 | 32 | Gap between footer columns |
 
-Note: 767px → the page switches to phone values at 767 for most sections; the 'Full-width image' block switched to 40 already at 767. Treat 767 as the phone breakpoint.
+Note: at 767px most sections still used the tablet values (80); only the full-width image block had dropped to 40. At 390px everything used the phone values. So tablet values run down to 480 and phone values apply at 479 and below. Widths between 480 and 767 were only measured at 767. Framer breakpoints to set: Desktop 1440, Tablet 810, Phone 390.
 Horizontal spacing, type, component styling, colors and motion are Fellowship's own (not measured).
 ## Radius / shadow / effects
 ## Motion
