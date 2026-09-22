@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-22 — Step 3 key picks (recommended, pending Ian's OK): hero "Your event, with a coffee shop in the room."; utility bar "Questions? Text or call us"; proof strip "Serving Houston since 2021"; closing CTA "Let's put coffee on the guest list." — Concrete, verified, in Fellowship's voice; avoids echoing Night Owl's "real people" top-bar angle.
+
 - 2026-09-22 — This repo (github.com/ianhutto/Fellowship-Co) is the single source of truth for the site. — Keep facts, words, design and process in one versioned place.
 - 2026-09-22 — COPY.md v0.1 drafted in Fellowship's current voice (warm, casual, a little cheeky). Awaiting Step 3 headline approval. — Voice taken from current site copy as seen in search results.
 - 2026-09-22 — CONTEXT.md red-teamed by an independent fact-check pass; corrections applied (café opened May 1 2024; "roasted in-house" not claimed; suppliers not named until confirmed; Instagram is @fellowshipcoffee.co). — Avoid publishing stale or wrong facts.

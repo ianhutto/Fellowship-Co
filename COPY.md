@@ -1,6 +1,6 @@
 # COPY.md — Fellowship Coffee Co.
 
-Status: DRAFT v0.1 — 2026-09-22 — for Step 3 approval. No Framer work until every headline is ✅.
+Status: DRAFT v0.2 — 2026-09-22 — Step 3 in progress: four key picks recommended (✅ rec). Remaining lines stand unless changed. No Framer work until COPY is locked.
 Rules: every claim traces to CONTEXT.md v0.3. [confirm] = depends on an owner answer still open. Original copy in Fellowship's voice (warm, casual, a little cheeky) — nothing taken from Night Owl.
 Where you see A / B / C, pick one or rewrite.
 
@@ -9,9 +9,7 @@ Where you see A / B / C, pick one or rewrite.
 ## GLOBAL
 
 Utility bar
-- A: Real baristas. Real humans on the phone. (832) 427-7363
-- B: Questions? Text or call us — (832) 427-7363
-- C: Houston's coffee cart · (832) 427-7363
+✅ rec: Questions? Text or call us — (832) 427-7363  [confirm the number takes texts; if not → "Questions? Call us"]
 
 Nav: Events ▾ (Weddings · Corporate · Celebrations) · Menu · The Coffee Shop · About · FAQ · [GET A QUOTE]
 
@@ -31,18 +29,15 @@ Footer legal: © 2026 Fellowship Coffee Co. [confirm public name]
 EYEBROW: MOBILE ESPRESSO BAR · HOUSTON
 
 H1 options
-- A: We bring the coffee to you.  ← uses their press slogan [confirm still used]
-- B: Your event, with a coffee shop in the room.
-- C: The best part of the party might be the coffee.
+✅ rec: Your event, with a coffee shop in the room.
+(Alt if owner confirms slogan still in use: We bring the coffee to you.)
 
 Sub: A full espresso bar and friendly baristas for weddings, offices and celebrations across Houston. We set up, serve and clean up. You enjoy the party.
 CTA: GET A QUOTE · See the menu
 
 ### 2. Proof strip — job: instant trust
-Until real, permissioned proof exists, use ONE of:
-- A: Featured in Community Impact  [press — confirm OK to show the name]
-- B: Serving Houston since 2021
-- C: [rating] on [one source], as of [date]  [owner picks source]
+✅ rec: Serving Houston since 2021
+(Replace with real, permissioned reviews or a dated rating once the owner supplies them.)
 
 ### 3. What we do — job: the offer in one breath
 EYEBROW: WHAT WE DO
@@ -83,9 +78,7 @@ H2: What our guests say.
 [Owner supplies 3–6 reviews with permission. No placeholder quotes on the live site.]
 
 ### 7. Closing CTA — job: last push
-H2 options
-- A: Let's put coffee on the guest list.
-- B: Tell us about your event. We'll handle the coffee.
+✅ rec H2: Let's put coffee on the guest list.
 Sub: Share the date, headcount and location. We'll send a quote.
 CTA: GET A QUOTE
 
