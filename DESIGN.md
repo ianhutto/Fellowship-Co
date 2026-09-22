@@ -11,7 +11,7 @@ Needed before drafting:
 ## Design method (agreed 2026-09-22)
 Goal: Night Owl's architecture at Night Owl's level of polish, unmistakably Fellowship.
 1. Architecture mirrored per SCOPE.md §3.
-2. Borrow PRINCIPLES from Night Owl, never values. Principles (qualitative): generous section spacing; big editorial headlines against small caps eyebrows; full-bleed photo/video; restrained palette with one accent; subtle, smooth motion. No measuring or reusing their pixel values, fonts or component styling.
+2. Vertical rhythm MATCHES Night Owl (revised 2026-09-22 at Ian's call): section padding, heading → body → CTA gaps, card/grid gaps, and their scaling per breakpoint — measured from their live pages, not guessed. Everything else is principles only: big editorial headlines against small caps eyebrows; full-bleed photo/video; restrained palette with one accent; subtle, smooth motion. Type, fonts, component styling, colors and motion values are Fellowship's own.
 3. Four more references chosen for Fellowship's character (warm, community, faith-rooted, Filipino-inspired drinks). Each: the one principle borrowed. [owner/Ian to pick, or Provider proposes]
 4. Fellowship tokens (below) each chosen to deliver a principle from step 2.
 5. Parity review: side by side with Night Owl on polish, breathing room, type contrast and motion quality. Gaps fixed with Fellowship tokens only.
@@ -24,6 +24,7 @@ Template (to be filled in Step 4 — maps 1:1 onto Framer):
 ## Text styles (per breakpoint)
 ## Breakpoints
 ## Spacing
+(Measured from nightowlcoffeecart.com at Desktop / Tablet / Phone — values pending measurement)
 ## Radius / shadow / effects
 ## Motion
 ## Components (with variants)
