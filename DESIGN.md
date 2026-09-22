@@ -55,6 +55,9 @@ Verify each font is available in Framer's font library before locking.
 | Form | Styled as an order slip: numbered fields, mono labels, dashed dividers; submit button "Send my order" [confirm copy] |
 | Footer | Café sign-off: address and hours set like a shop window decal, stamp seal, social |
 
+### Style sample
+v0.1 published 2026-09-22 as a private Design canvas ("Fellowship Style Sample"). Accent switch: ube / pandan / cinnamon. Palette and fonts are proposals until Fellowship's brand assets arrive.
+
 ### Motion
 Warm, not flashy: fade-up on scroll (short distance), the stamp rotating slowly, underline draws, a steam-rise on button hover. One easing curve for everything. All of it off under reduced-motion.
 
