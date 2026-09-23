@@ -14,4 +14,6 @@ Final scores (r5 reviewer, before r6–r8 fixes): First 5s 4 · Type 5 · Spacin
 Disagreement noted: reviewer (text-only read) thought Night Owl's Difference section is open; live visual check shows an inset dark photo band. Kept the band.
 
 Open: distinctiveness (needs real photography and one ownable brand moment); rubric item 2 (photography) cannot pass on placeholders.
-Renders: reviews/renders/home-desktop-v4.png, home-phone-v4.png
+| r9–r10 | v5: real Unsplash photography in all 7 image slots (see assets/PLACEHOLDERS.md); hero photo masked to the right of the headline; closing CTA photo blurred + 0.62 overlay so another café's signage is unreadable | Photography gap closed for mockup purposes; rubric item 2 still needs Fellowship's own photos |
+
+Renders: reviews/renders/home-desktop-v4.png, home-phone-v4.png, home-desktop-v5.png, home-phone-v5.png

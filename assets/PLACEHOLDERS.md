@@ -16,5 +16,18 @@ Every placeholder must be tagged "Placeholder" in Framer and replaced before lau
 | The Coffee Shop page | https://unsplash.com/photos/interior-of-a-coffee-shop-tKN1WXrzQ3s | Café interior |
 | Menu / detail | https://unsplash.com/photos/coffee-latte-with-art-EsElwslACec | Drink detail |
 
+## In use on the v5 homepage mockup (downloaded 2026-09-23)
+Files are in `assets/photos/placeholders/`. Each photo ID was shown as "Free Photo on Unsplash" when checked; check again before launch.
+
+| File | Slot | Unsplash image ID | Note |
+|---|---|---|---|
+| hero.jpg | Home hero | photo-1738824747118-d06c2bbcb990 | Milk pour (Fahmi Fakhrudin) |
+| wedding.jpg | Weddings card | photo-1520903920243-00d872a2d1c9 | |
+| corporate.jpg | Corporate card | photo-1543269865-cbf427effbad | |
+| celebrations.jpg | Celebrations card | photo-1700488629510-bf60790ff9fc | |
+| review.jpg | What we do intro | photo-1760175445000-0e01e193d1cd | |
+| cafe.jpg | Difference band | photo-1554118811-1e0d58224f24 | |
+| cta.jpg | Closing CTA | photo-1733697968338-21feb4b7a4c3 | Shows another café's sign: keep blurred or swap it out |
+
 ## How to use in Framer
 Open each page, click "Download free", then drag the file into the matching image fill in Framer (or `assets/photos/placeholders/`). Unsplash blocks automated downloads, so this step is manual.
