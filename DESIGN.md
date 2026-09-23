@@ -23,20 +23,14 @@ Status: PROPOSAL. Fellowship's existing logo, colors and fonts override anything
 ### Brand idea
 **"Pull up a chair."** Fellowship's name and story are about people gathering over coffee. Night Owl's look signals premium event production; Fellowship's signals warmth and hospitality. Every type and component choice below should feel like a well-run neighborhood café: crafted, warm, a little playful, never corporate.
 
-### Brand codes (restraint: two only)
-1. **The stamp:** a static round seal ("EST. 2021 · MISSOURI CITY, TX"). Footer and Quote page only. No rotation.
-2. **Mono labels:** small uppercase monospace for eyebrows, card labels and stat labels. This is the main recurring code.
-Dotted leaders appear on /menu only. Everything else stays quiet so the photography carries the premium feel.
-Removed in the restraint pass: cup-ring texture, torn/perforated ticket edges, polaroid rotation, handwritten review cards, order-slip form styling, steam-rise hover, seal-style proof strip, menu-board FAQ.
-
-### Type treatment
-| Role | Proposal | Notes |
-|---|---|---|
-| Display / H1–H2 | **Fraunces** (Google Fonts), large optical size, soft axis 0, weight 400, tight leading, sentence case | Crisp editorial serif, not "cosy indie" |
-| Body | **Instrument Sans** (Google Fonts) | |
-| Labels | **JetBrains Mono** (Google Fonts), 12–13px, uppercase, tracking 0.16–0.18em | Check contrast at small size (≥4.5:1) |
-| Accent | Italic Fraunces for one phrase in H1s only | H2/H3 stay roman |
-Verify each font is available in Framer's font library before locking.
+### Direction v2 (2026-09-23) — replaces the serif + mono proposal
+Ian's review: v1 (Fraunces + JetBrains Mono on cream/brown, labels everywhere) read as AI-generated. v2 is bolder and photography-led.
+- Type: **Bricolage Grotesque** (display, 700, large sizes, tight tracking) + **Figtree** (body). No monospace labels. Section cues are a short accent line ("01 — Weddings"), used sparingly. Verify both in Framer's font library.
+- Palette (proposal until Fellowship's brand arrives): Espresso #1C1410 · Warm white #FAF6F0 · Line #E6D9C8 · Ink muted #4E3F34 · Accent terracotta #B5532C (on dark: #E08A5E).
+- Scale: hero H1 132px desktop / 52px phone; section H2 96–112px; feature H3 60px; statement paragraph 56px. Big contrast between display and body.
+- Layout: 12-column grid; feature blocks 7/5 split with large photos; one large review quote instead of a card row; closing CTA as an inset photo band; oversized wordmark in the footer.
+- Brand codes: the terracotta full stop in the wordmark ("Fellowship.") and the numbered section cues. The stamp is retired.
+- Mockup: design canvas "Fellowship Style Sample", Home desktop + phone v2.
 
 ### Component styling
 | Component | Treatment |
@@ -58,7 +52,7 @@ Verify each font is available in Framer's font library before locking.
 ### Motion
 Fade-up on scroll (short distance), underline draw on links, tab image crossfade, marquee and carousel with pause controls. One easing curve. All off under reduced-motion.
 
-### Palette
+### Palette (v1 — superseded by Direction v2)
 Pending Fellowship's brand colors. If none exist, the proposal is a warm neutral base (cream / espresso brown) plus one accent from their signature drinks (ube purple or pandan green), for the owner to choose. No colors are locked until reviewed.
 
 Template (to be filled in Step 4 — maps 1:1 onto Framer):

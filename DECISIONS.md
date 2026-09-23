@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-23 — Visual direction v2: Bricolage Grotesque + Figtree, espresso / warm white / terracotta, photography-led 12-col layouts, no monospace labels. v1 serif + mono look retired. — Ian's review: v1 read as AI-generated. v2 is original to Fellowship (Night Owl uses a different typeface and palette); architecture and measured spacing unchanged.
+
 - 2026-09-22 — Build starts in Framer. Core files (CONTEXT, COPY, SCOPE §A, DESIGN) stay platform-neutral; Framer is the first adapter. A Squarespace build guide can be translated from the approved Framer build later if the owner stays on Squarespace. Final platform decision still open. — See and judge the premium design fast with Claude Code building; keep the Squarespace path open.
 
 - 2026-09-22 — Red team applied (reviews/2026-09-22-redteam.md). Service template re-mapped from Night Owl's weddings page (10 sections, numbered tabs replace separate gallery). Brand codes cut to two (static stamp, mono labels). Utility bar now café-first (the earlier "Text or call us" echoed Night Owl's phrasing). Proof fallback uses press mentions [owner to confirm]. Overclaims removed. — Premium through restraint; closer architectural match; no echo of Night Owl's wording.
