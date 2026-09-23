@@ -29,25 +29,29 @@ Ian's review: v1 (Fraunces + JetBrains Mono on cream/brown, labels everywhere) r
 - Palette (proposal until Fellowship's brand arrives): Espresso #1C1410 · Warm white #FAF6F0 · Line #E6D9C8 · Ink muted #4E3F34 · Accent terracotta #B5532C (on dark: #E08A5E).
 - Scale: hero H1 132px desktop / 52px phone; section H2 96–112px; feature H3 60px; statement paragraph 56px. Big contrast between display and body.
 - Layout: 12-column grid; feature blocks 7/5 split with large photos; one large review quote instead of a card row; closing CTA as an inset photo band; oversized wordmark in the footer.
-- Brand codes: the terracotta full stop in the wordmark ("Fellowship.") and the numbered section cues. The stamp is retired.
+- Brand codes: the terracotta full stop in the wordmark ("Fellowship.") and the numbered section cues. The stamp is retired. Supporting graphics (v6): the line icon set and one hand-drawn underline on the closing CTA.
 - Mockup: design canvas "Fellowship Style Sample", Home desktop + phone v2.
 
-### Component styling
+### Component styling (v6, 2026-09-23 — replaces the v1 serif/mono table)
+Every component on Night Owl's homepage has a Fellowship counterpart. The function and position are mirrored; the styling is Fellowship's own. Source of truth for the mockup: design/mockup/gen.py.
 | Component | Treatment |
 |---|---|
-| Buttons | Pill; primary filled accent, white text; secondary text with underline that draws on hover; visible focus ring |
-| Eyebrow | Mono label with a small accent dot |
-| Feature blocks | Large photo, gently rounded corners, alternating sides |
-| Benefit cards (3) | Clean card on paper tone, mono label, serif title, short body; no per-card CTA |
-| Numbered tabs (4) | Tab list with serif numerals "No. 01–04"; selecting a tab swaps its image and line |
-| Stat tiles | Big serif figure, mono label beneath; no receipt styling |
-| Review cards | Plain card, stars, quote in body type, name + event in mono |
-| Trust strip | Plain logo row or linked text line; no seals; marquee has a pause control |
-| FAQ accordion | Simple rows, serif question, + / × indicator |
-| Gallery (café, about) | Clean grid, no rotation |
-| CTA band | Full-bleed photo, dark overlay, large serif line, button |
+| Icons | Fellowship line set: 24 grid, 1.75 stroke, round caps and joins, currentColor. Phone, pin, clock, calendar, arrows, chevron, rings, briefcase, balloon, cup, storefront, tag, check, mail, shield, Instagram, Facebook, pause |
+| Buttons | Pill. Primary = terracotta #B5532C, white text, trailing calendar icon ("Get a quote" everywhere, header included). Secondary = 1.5px outline, trailing arrow |
+| Section cue | "01 — What we do": terracotta number + 28px terracotta rule + label in ink. Numbered 01–04 down the homepage (What we do, Why Fellowship, Kind words, Get in touch) |
+| Utility bar | Espresso bar, 44px, 15px icons before hours, address, phone |
+| Hero | Masked photo/video right of the headline, eyebrow with a terracotta dot separator, primary + outline-light buttons, "Pause" video control bottom right |
+| Trust strip | Warm band #F3ECE2; label "Serving Houston since 2021 · As featured in [confirm]"; marquee of publication names in Bricolage, coffee-bean separators, faded edges, pause button. Real logos replace the text only with permission |
+| Service cards (3) | Card #FFFDF9, 1px line #EADFD1, 16px radius; photo with a 52px round icon badge overlapping the bottom-left edge; label, H3 (balanced wrap), body, divider, text link with arrow |
+| Photo chip | Pill on photos: cup icon tile plus a short fact ("Hot or iced · dairy-free milks") |
+| Difference band | Inset dark photo band, 20px radius; H2 ends in the terracotta full stop |
+| Stat tiles (3) | Cards with a 48px icon tile, label bottom-left, big Bricolage figure right; middle tile filled terracotta |
+| Review summary | Espresso card, soft terracotta glow, shield badge, stars, VERIFIED, big rating, count and date |
+| Review cards | Source line with stars, terracotta quote-mark graphic, quote, divider, initials avatar, name, event pill; prev/next round arrow buttons and pagination dots |
+| Closing CTA | Blurred photo + espresso overlay + two warm glow blobs; hand-drawn terracotta underline under "guest list." (the only swash on the page); checkmark benefit row |
+| Footer | Wordmark, tagline, primary button, round social icons; Services / Resources / Visit the café columns with icons; newsletter card with envelope icon; legal bar; oversized pale "Fellowship." wordmark cropped at the bottom |
+| FAQ accordion | Simple rows, Bricolage question, + / × indicator |
 | Form | Clean fields with labels, clear focus and error states; button "SEND MY REQUEST" |
-| Footer | Café address and hours, stamp, social, newsletter |
 
 ### Motion
 Fade-up on scroll (short distance), underline draw on links, tab image crossfade, marquee and carousel with pause controls. One easing curve. All off under reduced-motion.

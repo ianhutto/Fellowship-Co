@@ -15,5 +15,7 @@ Disagreement noted: reviewer (text-only read) thought Night Owl's Difference sec
 
 Open: distinctiveness (needs real photography and one ownable brand moment); rubric item 2 (photography) cannot pass on placeholders.
 | r9–r10 | v5: real Unsplash photography in all 7 image slots (see assets/PLACEHOLDERS.md); hero photo masked to the right of the headline; closing CTA photo blurred + 0.62 overlay so another café's signage is unreadable | Photography gap closed for mockup purposes; rubric item 2 still needs Fellowship's own photos |
+| r11–r12 | v6: every Night Owl homepage component rebuilt in Fellowship styling. Adds the line icon set, icon badges on cards, stat tiles with icons, review summary and cards (stars, quote graphic, avatar, event pill), marquee with pause, CTA glow and check row, newsletter card, and the giant footer wordmark | Reviewer: parity 8 present / 3 partial; architecture 4.5, distinctiveness 3.5, craft 3 |
+| r13 | Reviewer fixes: price tile shows [$X] on terracotta (dashed chip removed); swash only on "guest list."; band H2 ends in the terracotta full stop; decorative arcs removed; card titles balanced; marquee lists publications only; CTA text contrast raised; "03 — Kind words" cue added (COPY eyebrow), CTA renumbered 04; header CTA terracotta; footer wordmarks refit | Declined: "[N]+ events served" stat (not in COPY; third tile stays "2024 café opened" until a rating source is chosen) |
 
-Renders: reviews/renders/home-desktop-v4.png, home-phone-v4.png, home-desktop-v5.png, home-phone-v5.png
+Renders: reviews/renders/home-desktop-v4.png, home-phone-v4.png, home-desktop-v5.png, home-phone-v5.png, home-desktop-v6.png, home-phone-v6.png

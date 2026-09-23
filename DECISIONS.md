@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-23 — Homepage v6: every component on Night Owl's homepage now has a Fellowship counterpart (DESIGN.md component table v6). Fellowship's own line icon set; one hand-drawn underline on the closing CTA only; price tile shows [$X] until the owner confirms. — Ian: the mockup was missing the components and graphics. The functions are mirrored and the styling stays Fellowship's.
+
 - 2026-09-23 — Visual direction v2: Bricolage Grotesque + Figtree, espresso / warm white / terracotta, photography-led 12-col layouts, no monospace labels. v1 serif + mono look retired. — Ian's review: v1 read as AI-generated. v2 is original to Fellowship (Night Owl uses a different typeface and palette); architecture and measured spacing unchanged.
 
 - 2026-09-22 — Build starts in Framer. Core files (CONTEXT, COPY, SCOPE §A, DESIGN) stay platform-neutral; Framer is the first adapter. A Squarespace build guide can be translated from the approved Framer build later if the owner stays on Squarespace. Final platform decision still open. — See and judge the premium design fast with Claude Code building; keep the Squarespace path open.
