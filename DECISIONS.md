@@ -2,6 +2,8 @@
 
 Newest first. Format: date — decision — why.
 
+- 2026-09-23 — Visual direction v3: Fellowship's real brand carried over from fellowshipcoffeetx.com (their wordmark, black/white/stone, Inter Tight + Montserrat caps, square buttons) and their own cart photography; the cart leads the hero. Direction v2 (Bricolage/terracotta) retired. Trust strip is static until there are 6+ permissioned logos. Homepage mockup v7 on the canvas (boards "v7 Home"). — Ian: the mockup had no Fellowship cart and wasn't carrying their styling. Owner to confirm photo reuse and supply originals.
+
 - 2026-09-23 — Homepage v6: every component on Night Owl's homepage now has a Fellowship counterpart (DESIGN.md component table v6). Fellowship's own line icon set; one hand-drawn underline on the closing CTA only; price tile shows [$X] until the owner confirms. — Ian: the mockup was missing the components and graphics. The functions are mirrored and the styling stays Fellowship's.
 
 - 2026-09-23 — Visual direction v2: Bricolage Grotesque + Figtree, espresso / warm white / terracotta, photography-led 12-col layouts, no monospace labels. v1 serif + mono look retired. — Ian's review: v1 read as AI-generated. v2 is original to Fellowship (Night Owl uses a different typeface and palette); architecture and measured spacing unchanged.

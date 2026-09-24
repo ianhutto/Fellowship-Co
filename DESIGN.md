@@ -23,7 +23,17 @@ Status: PROPOSAL. Fellowship's existing logo, colors and fonts override anything
 ### Brand idea
 **"Pull up a chair."** Fellowship's name and story are about people gathering over coffee. Night Owl's look signals premium event production; Fellowship's signals warmth and hospitality. Every type and component choice below should feel like a well-run neighborhood café: crafted, warm, a little playful, never corporate.
 
-### Direction v2 (2026-09-23) — replaces the serif + mono proposal
+### Direction v3 (2026-09-23, current) — Fellowship's own brand, carried over from fellowshipcoffeetx.com
+Measured live on fellowshipcoffeetx.com. Replaces Direction v2 (Bricolage/terracotta was a stand-in, not Fellowship's brand).
+- Logo: Fellowship's wide geometric wordmark "FELLOWSHIP / COFFEE CO." (assets/logo/logo-black.png, logo-white.png, made transparent from the site's 4x1.25 logo). Giant cropped version at 7% opacity at the foot of the page.
+- Palette: Ink #111111 · White #FFFFFF · Stone #F0F0EA (their header/footer band) · Line #E2DFD6 · Muted text #57534B · Leather #7A4B2C (from the apron) only on review stars. Monochrome everywhere else.
+- Type: Inter Tight 500 headings, tracking −0.03em, one italic phrase per H1/H2 in Inter Tight italic 400 (per COPY.md); Inter Tight 400 body; Montserrat 600 uppercase labels, 11–12px, tracking .14–.2em (echoes the wordmark); Montserrat 500 nav.
+- Buttons: square (2px radius), Montserrat caps. Black fill on light, white fill on dark, 1px outline for secondary. Trailing line icon.
+- Cards: white, 1px line, 8px radius; photos 8px radius.
+- Photography: Fellowship's own photos from their current site (assets/photos/fellowship-site/). The cart leads: hero = cart-rancilio (desktop) / cart-best (phone). Owner to confirm we may reuse them and supply originals.
+- Section cues: "01 — WHAT WE DO" in Montserrat caps with a 32px ink rule.
+
+### Direction v2 (2026-09-23) — SUPERSEDED by v3 — replaces the serif + mono proposal
 Ian's review: v1 (Fraunces + JetBrains Mono on cream/brown, labels everywhere) read as AI-generated. v2 is bolder and photography-led.
 - Type: **Bricolage Grotesque** (display, 700, large sizes, tight tracking) + **Figtree** (body). No monospace labels. Section cues are a short accent line ("01 — Weddings"), used sparingly. Verify both in Framer's font library.
 - Palette (proposal until Fellowship's brand arrives): Espresso #1C1410 · Warm white #FAF6F0 · Line #E6D9C8 · Ink muted #4E3F34 · Accent terracotta #B5532C (on dark: #E08A5E).
@@ -32,7 +42,7 @@ Ian's review: v1 (Fraunces + JetBrains Mono on cream/brown, labels everywhere) r
 - Brand codes: the terracotta full stop in the wordmark ("Fellowship.") and the numbered section cues. The stamp is retired. Supporting graphics (v6): the line icon set and one hand-drawn underline on the closing CTA.
 - Mockup: design canvas "Fellowship Style Sample", Home desktop + phone v2.
 
-### Component styling (v6, 2026-09-23 — replaces the v1 serif/mono table)
+### Component styling (v6 structure; v3 styling applies — see Direction v3 and design/mockup/gen7.py)
 Every component on Night Owl's homepage has a Fellowship counterpart. The function and position are mirrored; the styling is Fellowship's own. Source of truth for the mockup: design/mockup/gen.py.
 | Component | Treatment |
 |---|---|
